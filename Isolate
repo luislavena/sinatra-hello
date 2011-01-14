@@ -1,1 +1,5 @@
 gem 'sinatra', '~> 1.1.0'
+
+env :development do
+  gem 'engineyard', '~> 1.3.14'
+end
